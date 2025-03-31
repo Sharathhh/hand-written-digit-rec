@@ -14,3 +14,11 @@ This project implements a **Handwritten Digit Recognition** system using a **Con
     - NumPy
     - Matplotlib
 - **Accuracy:** ~98% after training
+- **File Structure:**
+- hand-written-digits-recognizer/
+├── train.csv                 # Training dataset (Optional if you use MNIST)
+├── test.csv                  # Test dataset (Optional if you use MNIST)
+├── digit_recognizer.py       # Main script to train and test the model
+└── model.h5                  # Saved trained model
+
+
